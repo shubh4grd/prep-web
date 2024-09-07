@@ -1,0 +1,14 @@
+.correction-section {
+  background-color: white;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.btn-success {
+  background-color: #32cafe;
+  border-color: #32cafe;
+}

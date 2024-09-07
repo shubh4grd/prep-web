@@ -1,0 +1,22 @@
+.features-section {
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.card-text {
+  color: #7f58d4;
+}
+
+.card {
+  margin: 15px 0;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #ff47c3;
+  border-color: #ff47c3;
+}

@@ -1,0 +1,16 @@
+<section class="testimonials-section py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Millions of people love Speak</h2>
+    <div class="row mt-5">
+      <div class="col-md-4" *ngFor="let testimonial of testimonials">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <img [src]="testimonial.image" alt="User Image" class="img-fluid rounded-circle mb-3" width="60">
+            <p class="card-text">{{ testimonial.review }}</p>
+            <p class="card-text"><small>- {{ testimonial.name }}, {{ testimonial.location }}</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
